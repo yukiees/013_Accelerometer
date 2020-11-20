@@ -17,6 +17,8 @@
 		9C3CC03825673A5F00771B0E /* _13_AccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CC03725673A5F00771B0E /* _13_AccelerometerUITests.swift */; };
 		9C3CC04B25673B3300771B0E /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C3CC04925673B3300771B0E /* awa.png */; };
 		9C3CC04C25673B3300771B0E /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C3CC04A25673B3300771B0E /* suiheiki.png */; };
+		9C3CC0512567CE8300771B0E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CC0502567CE8300771B0E /* GameViewController.swift */; };
+		9C3CC0562567CE8D00771B0E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CC0552567CE8D00771B0E /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9C3CC03925673A5F00771B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C3CC04925673B3300771B0E /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
 		9C3CC04A25673B3300771B0E /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		9C3CC0502567CE8300771B0E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9C3CC0552567CE8D00771B0E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +110,10 @@
 				9C3CC04825673B3300771B0E /* 13_Resource */,
 				9C3CC01525673A5900771B0E /* AppDelegate.swift */,
 				9C3CC01725673A5900771B0E /* SceneDelegate.swift */,
-				9C3CC01925673A5900771B0E /* ViewController.swift */,
 				9C3CC01B25673A5900771B0E /* Main.storyboard */,
+				9C3CC01925673A5900771B0E /* ViewController.swift */,
+				9C3CC0502567CE8300771B0E /* GameViewController.swift */,
+				9C3CC0552567CE8D00771B0E /* ResultViewController.swift */,
 				9C3CC01E25673A5E00771B0E /* Assets.xcassets */,
 				9C3CC02025673A5E00771B0E /* LaunchScreen.storyboard */,
 				9C3CC02325673A5E00771B0E /* Info.plist */,
@@ -274,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3CC0562567CE8D00771B0E /* ResultViewController.swift in Sources */,
+				9C3CC0512567CE8300771B0E /* GameViewController.swift in Sources */,
 				9C3CC01A25673A5900771B0E /* ViewController.swift in Sources */,
 				9C3CC01625673A5900771B0E /* AppDelegate.swift in Sources */,
 				9C3CC01825673A5900771B0E /* SceneDelegate.swift in Sources */,
